@@ -47,7 +47,7 @@ I tried with different number of channels in each layer and out of all the combi
 
 The performance was better when the number of channels where gradually increased from 16 to 128. Accuracies were around **98.6%** and **97.5%** for training and testing respectively.
 
-![[Road-Sign-Recognition-/Screenshot_5.png]]
+https://github.com/peter0471/Road-Sign-Recognition-/blob/main/Screenshot_5.png
 #### Pooling Layers
 I am using MaxPooling2D for all runs.
 I experimented with maxpool and the performance dropped if I place pooling layers in-between convolution layers, so I placed it after all the convolution layers.
@@ -65,6 +65,6 @@ I experimented with different dropout values(0.1, 0.2, 0.3, 0.4)
 So I fixed 0.1 as the dropout value.
 
 ### The Final Model
-![[Road-Sign-Recognition-/Screenshot_6.png]]
+https://github.com/peter0471/Road-Sign-Recognition-/blob/main/Screenshot_6.png
 
 This is the best performing model from my experiment. It has training and testing accuracy of **99%** and **98.5%** respectively. The model appears to fit the training data well without overfitting, and generalises well to the testing data.
